@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100vw;
+    height: 8vh;
+    background-color: #06131F;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+.logo{
+    color:#99572F;
+}
+.logoBlack{
+    color: #77A6A0;
+}
+.navigationList{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.navigationList a{
+    color: #827566;
+    text-decoration:none;
+    font-size: 2rem;
+    margin-right: 15px;
+}
+.header{
+    background: black url(logo.jpg) no-repeat center/cover;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column ;
+}
+.header h1{
+    color: #77A6A0;
+    font-size: 3rem;
+    text-align: center;
+}
+.headerText{
+    color: #749D8B;
+    font-size: 1.3rem;
+    text-align: center;
+    width: 50%;
+    padding-top: 10px;
+}
+.sub{
+    height: 10vh;
+    background-color: #19414B;
+    align-items: center;
+    display: flex;
+    padding: 0 40vw;
+}
+
+.buttonSub{
+    color: black;
+    background-color: #D97D48;
+    font-size: 1rem;
+    padding: 8px 18px;
+    height: 35px;
+
+}
+.subText{
+    font-size: 2rem;
+    color: #A3A08E;
+}
+.inputSub{
+    height: 35px;
+    margin-left: 20px;
+    outline: none;
+    color: #D97D48;
+}
+.section{
+    height: 20vh;
+    background-color: #021816;
+    border-top: 1px solid #6F9D98;
+    border-bottom: 1px solid #6F9D98;
+    display:flex;
+    align-items: center;
+}
+.leftSect{
+    text-align: center;
+    width: 50vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.rightSect {
+    text-align: center;
+    width: 50vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.leftText{
+    color: #D97D48;
+    font-size: 2rem;
+}
+.rightText{
+    color: #D97D48;
+    font-size: 2rem;
+}
+.leftSectText{
+    color: #B6A172;
+    text-align: center;
+    width: 80%;
+}
+.rightSectText{
+    text-align: center;
+    color: #B6A172;
+    width: 80%;
+}
+
+.footer{
+    height: 17vh;
+    background-color: #021816;
+    align-items: center;
+}
+.logoFooter{
+    color: #D97D48;
+    justify-content:center;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+
+}
+.footerList{
+    display: flex;
+    list-style-type: none;
+    justify-content:center;
+}
+.footerNav a{
+    color: #B6A172;
+    text-decoration:none;
+    font-size: 2rem;
+    margin-right: 15px;
+}
+a:hover {
+    color: orange;
+}
